@@ -1,0 +1,2036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>image.png</string>
+		<key>difference1</key>
+		<string>311.0 169.0 59.0 60.0</string>
+		<key>difference2</key>
+		<string>378.0 313.0 59.0 60.0</string>
+		<key>difference3</key>
+		<string>108.0 604.0 59.0 60.0</string>
+		<key>difference4</key>
+		<string>288.0 631.0 120.0 60.0</string>
+		<key>difference5</key>
+		<string>490.0 282.0 56.0 75.0</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image1.png</string>
+		<key>difference1</key>
+		<string>354.0 324.0 56.0 75.0</string>
+		<key>difference2</key>
+		<string>490 624 80 56</string>
+		<key>difference3</key>
+		<string>145 223 62 56</string>
+		<key>difference4</key>
+		<string>126 606 78 56</string>
+		<key>difference5</key>
+		<string>399 311 71 44</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image2.png</string>
+		<key>difference1</key>
+		<string>400 184 71 105</string>
+		<key>difference2</key>
+		<string>403 503 99 202</string>
+		<key>difference3</key>
+		<string>70 233 87 56</string>
+		<key>difference4</key>
+		<string>78 422 87 56</string>
+		<key>difference5</key>
+		<string>184 640 76 65</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image3.png</string>
+		<key>difference1</key>
+		<string>456 538 76 65</string>
+		<key>difference2</key>
+		<string>198 399 81 69</string>
+		<key>difference3</key>
+		<string>382 104 104 69</string>
+		<key>difference4</key>
+		<string>228 150 104 69</string>
+		<key>difference5</key>
+		<string>147 546 118 83</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image4.png</string>
+		<key>difference1</key>
+		<string>371 372 104 83</string>
+		<key>difference2</key>
+		<string>271 116 64 72</string>
+		<key>difference3</key>
+		<string>500 345 64 71</string>
+		<key>difference4</key>
+		<string>218 592 64 98</string>
+		<key>difference5</key>
+		<string>440 466 87 98</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image5.png</string>
+		<key>difference1</key>
+		<string>283 387 87 56</string>
+		<key>difference2</key>
+		<string>196 632 87 73</string>
+		<key>difference3</key>
+		<string>263 111 87 73</string>
+		<key>difference4</key>
+		<string>386 616 87 89</string>
+		<key>difference5</key>
+		<string>451 477 93 110</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image6.png</string>
+		<key>difference1</key>
+		<string>236 396 153 56</string>
+		<key>difference2</key>
+		<string>205 261 71 56</string>
+		<key>difference3</key>
+		<string>393 593 71 112</string>
+		<key>difference4</key>
+		<string>84 283 89 77</string>
+		<key>difference5</key>
+		<string>416 468 89 77</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image7.png</string>
+		<key>difference1</key>
+		<string>316 354 89 77</string>
+		<key>difference2</key>
+		<string>70 165 74 77</string>
+		<key>difference3</key>
+		<string>77 605 155 95</string>
+		<key>difference4</key>
+		<string>177 104 63 65</string>
+		<key>difference5</key>
+		<string>327 618 84 65</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image8.png</string>
+		<key>difference1</key>
+		<string>254 149 159 114</string>
+		<key>difference2</key>
+		<string>206 153 60 69</string>
+		<key>difference3</key>
+		<string>149 381 60 52</string>
+		<key>difference4</key>
+		<string>268 443 64 148</string>
+		<key>difference5</key>
+		<string>437 394 64 92</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image9.png</string>
+		<key>difference1</key>
+		<string>416 398 71 104</string>
+		<key>difference2</key>
+		<string>70 177 139 133</string>
+		<key>difference3</key>
+		<string>207 104 117 187</string>
+		<key>difference4</key>
+		<string>156 369 75 71</string>
+		<key>difference5</key>
+		<string>241 346 75 71</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image10.png</string>
+		<key>difference1</key>
+		<string>415 473 119 102</string>
+		<key>difference2</key>
+		<string>329 388 54 67</string>
+		<key>difference3</key>
+		<string>197 411 54 67</string>
+		<key>difference4</key>
+		<string>70 501 79 107</string>
+		<key>difference5</key>
+		<string>154 112 173 107</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image11.png</string>
+		<key>difference1</key>
+		<string>283 416 106 77</string>
+		<key>difference2</key>
+		<string>202 505 80 77</string>
+		<key>difference3</key>
+		<string>301 208 120 77</string>
+		<key>difference4</key>
+		<string>482 431 88 77</string>
+		<key>difference5</key>
+		<string>378 104 88 77</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image12.png</string>
+		<key>difference1</key>
+		<string>370 273 57 77</string>
+		<key>difference2</key>
+		<string>423 225 91 103</string>
+		<key>difference3</key>
+		<string>488 479 68 79</string>
+		<key>difference4</key>
+		<string>212 498 68 79</string>
+		<key>difference5</key>
+		<string>391 608 68 97</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image13.png</string>
+		<key>difference1</key>
+		<string>381 630 179 75</string>
+		<key>difference2</key>
+		<string>176 141 81 59</string>
+		<key>difference3</key>
+		<string>235 252 107 91</string>
+		<key>difference4</key>
+		<string>419 126 107 143</string>
+		<key>difference5</key>
+		<string>111 415 107 143</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image14.png</string>
+		<key>difference1</key>
+		<string>369 589 107 107</string>
+		<key>difference2</key>
+		<string>397 438 107 107</string>
+		<key>difference3</key>
+		<string>385 104 73 74</string>
+		<key>difference4</key>
+		<string>75 449 73 182</string>
+		<key>difference5</key>
+		<string>127 133 73 91</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image15.png</string>
+		<key>difference1</key>
+		<string>308 439 94 116</string>
+		<key>difference2</key>
+		<string>123 325 97 98</string>
+		<key>difference3</key>
+		<string>155 450 80 81</string>
+		<key>difference4</key>
+		<string>221 505 97 98</string>
+		<key>difference5</key>
+		<string>438 263 65 66</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image16.png</string>
+		<key>difference1</key>
+		<string>108 387 65 66</string>
+		<key>difference2</key>
+		<string>161 484 104 120</string>
+		<key>difference3</key>
+		<string>455 524 91 91</string>
+		<key>difference4</key>
+		<string>387 427 91 91</string>
+		<key>difference5</key>
+		<string>291 134 91 91</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image17.png</string>
+		<key>difference1</key>
+		<string>239 351 70 91</string>
+		<key>difference2</key>
+		<string>70 104 49 91</string>
+		<key>difference3</key>
+		<string>119 594 83 91</string>
+		<key>difference4</key>
+		<string>451 466 83 91</string>
+		<key>difference5</key>
+		<string>423 249 99 137</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image18.png</string>
+		<key>difference1</key>
+		<string>468 212 67 95</string>
+		<key>difference2</key>
+		<string>155 416 86 115</string>
+		<key>difference3</key>
+		<string>346 590 86 115</string>
+		<key>difference4</key>
+		<string>70 153 96 154</string>
+		<key>difference5</key>
+		<string>145 377 64 51</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image19.png</string>
+		<key>difference1</key>
+		<string>506 607 64 51</string>
+		<key>difference2</key>
+		<string>357 600 125 99</string>
+		<key>difference3</key>
+		<string>172 231 125 126</string>
+		<key>difference4</key>
+		<string>70 158 125 73</string>
+		<key>difference5</key>
+		<string>70 540 105 73</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image20.png</string>
+		<key>difference1</key>
+		<string>188 204 87 67</string>
+		<key>difference2</key>
+		<string>142 136 79 65</string>
+		<key>difference3</key>
+		<string>515 518 55 65</string>
+		<key>difference4</key>
+		<string>368 392 55 65</string>
+		<key>difference5</key>
+		<string>80 328 55 52</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image21.png</string>
+		<key>difference1</key>
+		<string>507 389 55 71</string>
+		<key>difference2</key>
+		<string>274 542 100 128</string>
+		<key>difference3</key>
+		<string>251 104 100 94</string>
+		<key>difference4</key>
+		<string>416 279 100 94</string>
+		<key>difference5</key>
+		<string>79 259 100 94</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image22.png</string>
+		<key>difference1</key>
+		<string>469 352 64 54</string>
+		<key>difference2</key>
+		<string>357 403 64 54</string>
+		<key>difference3</key>
+		<string>531 369 58 70</string>
+		<key>difference4</key>
+		<string>244 369 79 94</string>
+		<key>difference5</key>
+		<string>316 358 107 54</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image23.png</string>
+		<key>difference1</key>
+		<string>433 160 107 125</string>
+		<key>difference2</key>
+		<string>70 534 107 125</string>
+		<key>difference3</key>
+		<string>199 118 93 83</string>
+		<key>difference4</key>
+		<string>229 622 102 83</string>
+		<key>difference5</key>
+		<string>134 429 102 67</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image24.png</string>
+		<key>difference1</key>
+		<string>115 445 102 107</string>
+		<key>difference2</key>
+		<string>343 384 102 94</string>
+		<key>difference3</key>
+		<string>507 494 63 94</string>
+		<key>difference4</key>
+		<string>366 104 107 121</string>
+		<key>difference5</key>
+		<string>226 135 107 121</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image25.png</string>
+		<key>difference1</key>
+		<string>105 483 107 121</string>
+		<key>difference2</key>
+		<string>100 157 56 63</string>
+		<key>difference3</key>
+		<string>137 197 44 63</string>
+		<key>difference4</key>
+		<string>378 302 136 145</string>
+		<key>difference5</key>
+		<string>70 610 136 95</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image26.png</string>
+		<key>difference1</key>
+		<string>135 525 87 95</string>
+		<key>difference2</key>
+		<string>252 451 61 65</string>
+		<key>difference3</key>
+		<string>284 322 52 56</string>
+		<key>difference4</key>
+		<string>230 172 89 87</string>
+		<key>difference5</key>
+		<string>180 346 77 129</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image27.png</string>
+		<key>difference1</key>
+		<string>387 122 113 163</string>
+		<key>difference2</key>
+		<string>277 567 60 75</string>
+		<key>difference3</key>
+		<string>243 273 74 75</string>
+		<key>difference4</key>
+		<string>106 390 55 62</string>
+		<key>difference5</key>
+		<string>392 304 55 44</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image28.png</string>
+		<key>difference1</key>
+		<string>70 497 55 75</string>
+		<key>difference2</key>
+		<string>143 513 86 103</string>
+		<key>difference3</key>
+		<string>261 109 86 72</string>
+		<key>difference4</key>
+		<string>198 278 86 175</string>
+		<key>difference5</key>
+		<string>455 571 86 95</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image29.png</string>
+		<key>difference1</key>
+		<string>145 537 86 168</string>
+		<key>difference2</key>
+		<string>389 393 66 79</string>
+		<key>difference3</key>
+		<string>276 426 75 95</string>
+		<key>difference4</key>
+		<string>166 104 107 95</string>
+		<key>difference5</key>
+		<string>448 115 60 82</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image30.png</string>
+		<key>difference1</key>
+		<string>228 471 110 82</string>
+		<key>difference2</key>
+		<string>401 232 81 82</string>
+		<key>difference3</key>
+		<string>268 242 81 82</string>
+		<key>difference4</key>
+		<string>218 588 60 117</string>
+		<key>difference5</key>
+		<string>290 374 60 61</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image31.png</string>
+		<key>difference1</key>
+		<string>70 520 60 157</string>
+		<key>difference2</key>
+		<string>263 326 51 53</string>
+		<key>difference3</key>
+		<string>76 104 108 169</string>
+		<key>difference4</key>
+		<string>282 449 92 106</string>
+		<key>difference5</key>
+		<string>477 554 84 79</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image32.png</string>
+		<key>difference1</key>
+		<string>482 96 71 69</string>
+		<key>difference2</key>
+		<string>280 560 107 158</string>
+		<key>difference3</key>
+		<string>104 449 107 128</string>
+		<key>difference4</key>
+		<string>195 432 82 70</string>
+		<key>difference5</key>
+		<string>106 112 103 101</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image33.png</string>
+		<key>difference1</key>
+		<string>198 275 61 74</string>
+		<key>difference2</key>
+		<string>70 337 61 74</string>
+		<key>difference3</key>
+		<string>377 333 66 90</string>
+		<key>difference4</key>
+		<string>434 158 66 59</string>
+		<key>difference5</key>
+		<string>334 186 80 59</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image34.png</string>
+		<key>difference1</key>
+		<string>374 173 52 54</string>
+		<key>difference2</key>
+		<string>271 430 92 72</string>
+		<key>difference3</key>
+		<string>409 402 85 78</string>
+		<key>difference4</key>
+		<string>155 173 64 78</string>
+		<key>difference5</key>
+		<string>244 551 116 78</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image35.png</string>
+		<key>difference1</key>
+		<string>410 418 105 119</string>
+		<key>difference2</key>
+		<string>493 177 70 81</string>
+		<key>difference3</key>
+		<string>439 625 102 88</string>
+		<key>difference4</key>
+		<string>168 278 98 91</string>
+		<key>difference5</key>
+		<string>70 534 98 116</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image36.png</string>
+		<key>difference1</key>
+		<string>161 506 72 73</string>
+		<key>difference2</key>
+		<string>384 617 72 88</string>
+		<key>difference3</key>
+		<string>370 156 51 53</string>
+		<key>difference4</key>
+		<string>60 604 51 65</string>
+		<key>difference5</key>
+		<string>232 333 55 49</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image37.png</string>
+		<key>difference1</key>
+		<string>82 468 64 54</string>
+		<key>difference2</key>
+		<string>399 545 64 99</string>
+		<key>difference3</key>
+		<string>462 191 67 99</string>
+		<key>difference4</key>
+		<string>267 153 62 73</string>
+		<key>difference5</key>
+		<string>116 253 90 101</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image38.png</string>
+		<key>difference1</key>
+		<string>91 244 88 87</string>
+		<key>difference2</key>
+		<string>292 126 88 98</string>
+		<key>difference3</key>
+		<string>482 126 76 68</string>
+		<key>difference4</key>
+		<string>256 267 93 125</string>
+		<key>difference5</key>
+		<string>84 599 132 95</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image39.png</string>
+		<key>difference1</key>
+		<string>120 524 88 88</string>
+		<key>difference2</key>
+		<string>158 200 88 88</string>
+		<key>difference3</key>
+		<string>350 415 88 54</string>
+		<key>difference4</key>
+		<string>399 119 127 77</string>
+		<key>difference5</key>
+		<string>456 437 96 77</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image40.png</string>
+		<key>difference1</key>
+		<string>236 556 75 139</string>
+		<key>difference2</key>
+		<string>270 381 84 74</string>
+		<key>difference3</key>
+		<string>330 202 100 92</string>
+		<key>difference4</key>
+		<string>322 446 103 87</string>
+		<key>difference5</key>
+		<string>190 272 86 87</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image41.png</string>
+		<key>difference1</key>
+		<string>313 243 86 173</string>
+		<key>difference2</key>
+		<string>185 201 81 79</string>
+		<key>difference3</key>
+		<string>288 626 81 79</string>
+		<key>difference4</key>
+		<string>200 427 98 79</string>
+		<key>difference5</key>
+		<string>102 513 98 117</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image42.png</string>
+		<key>difference1</key>
+		<string>396 172 89 85</string>
+		<key>difference2</key>
+		<string>317 385 70 65</string>
+		<key>difference3</key>
+		<string>269 186 88 60</string>
+		<key>difference4</key>
+		<string>152 148 48 48</string>
+		<key>difference5</key>
+		<string>296 651 91 54</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image43.png</string>
+		<key>difference1</key>
+		<string>289 403 91 54</string>
+		<key>difference2</key>
+		<string>203 435 91 93</string>
+		<key>difference3</key>
+		<string>166 128 66 80</string>
+		<key>difference4</key>
+		<string>262 118 73 49</string>
+		<key>difference5</key>
+		<string>155 350 73 49</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image44.png</string>
+		<key>difference1</key>
+		<string>96 331 104 76</string>
+		<key>difference2</key>
+		<string>470 352 84 76</string>
+		<key>difference3</key>
+		<string>421 541 105 97</string>
+		<key>difference4</key>
+		<string>307 601 80 104</string>
+		<key>difference5</key>
+		<string>129 563 80 104</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image45.png</string>
+		<key>difference1</key>
+		<string>481 336 96 104</string>
+		<key>difference2</key>
+		<string>392 412 96 92</string>
+		<key>difference3</key>
+		<string>250 471 108 109</string>
+		<key>difference4</key>
+		<string>106 104 214 76</string>
+		<key>difference5</key>
+		<string>196 181 61 58</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image46.png</string>
+		<key>difference1</key>
+		<string>322 183 43 52</string>
+		<key>difference2</key>
+		<string>464 534 85 98</string>
+		<key>difference3</key>
+		<string>137 379 73 86</string>
+		<key>difference4</key>
+		<string>158 243 73 56</string>
+		<key>difference5</key>
+		<string>349 456 47 56</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image47.png</string>
+		<key>difference1</key>
+		<string>439 219 98 101</string>
+		<key>difference2</key>
+		<string>165 199 86 77</string>
+		<key>difference3</key>
+		<string>256 104 92 133</string>
+		<key>difference4</key>
+		<string>207 608 79 97</string>
+		<key>difference5</key>
+		<string>454 555 104 97</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image48.png</string>
+		<key>difference1</key>
+		<string>475 414 74 75</string>
+		<key>difference2</key>
+		<string>450 541 74 75</string>
+		<key>difference3</key>
+		<string>70 104 160 162</string>
+		<key>difference4</key>
+		<string>233 104 67 127</string>
+		<key>difference5</key>
+		<string>412 122 67 75</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image49.png</string>
+		<key>difference1</key>
+		<string>137 225 83 52</string>
+		<key>difference2</key>
+		<string>453 407 75 72</string>
+		<key>difference3</key>
+		<string>500 474 75 72</string>
+		<key>difference4</key>
+		<string>175 549 89 85</string>
+		<key>difference5</key>
+		<string>178 352 75 73</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image50.png</string>
+		<key>difference1</key>
+		<string>233 467 61 199</string>
+		<key>difference2</key>
+		<string>115 419 78 93</string>
+		<key>difference3</key>
+		<string>293 562 78 93</string>
+		<key>difference4</key>
+		<string>492 113 78 74</string>
+		<key>difference5</key>
+		<string>182 187 85 91</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image51.png</string>
+		<key>difference1</key>
+		<string>103 301 61 68</string>
+		<key>difference2</key>
+		<string>70 513 61 102</string>
+		<key>difference3</key>
+		<string>437 535 67 85</string>
+		<key>difference4</key>
+		<string>401 211 77 85</string>
+		<key>difference5</key>
+		<string>227 400 77 85</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image52.png</string>
+		<key>difference1</key>
+		<string>359 314 110 265</string>
+		<key>difference2</key>
+		<string>353 228 90 82</string>
+		<key>difference3</key>
+		<string>188 560 90 82</string>
+		<key>difference4</key>
+		<string>293 588 104 103</string>
+		<key>difference5</key>
+		<string>267 160 52 79</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image53.png</string>
+		<key>difference1</key>
+		<string>257 401 73 106</string>
+		<key>difference2</key>
+		<string>186 347 73 73</string>
+		<key>difference3</key>
+		<string>191 104 73 68</string>
+		<key>difference4</key>
+		<string>325 604 140 82</string>
+		<key>difference5</key>
+		<string>143 501 113 109</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image54.png</string>
+		<key>difference1</key>
+		<string>207 348 76 81</string>
+		<key>difference2</key>
+		<string>469 502 76 120</string>
+		<key>difference3</key>
+		<string>385 545 76 78</string>
+		<key>difference4</key>
+		<string>105 601 76 78</string>
+		<key>difference5</key>
+		<string>291 509 59 63</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image55.png</string>
+		<key>difference1</key>
+		<string>441 204 100 100</string>
+		<key>difference2</key>
+		<string>295 367 140 64</string>
+		<key>difference3</key>
+		<string>312 581 98 86</string>
+		<key>difference4</key>
+		<string>93 201 74 107</string>
+		<key>difference5</key>
+		<string>259 104 56 58</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image56.png</string>
+		<key>difference1</key>
+		<string>472 104 98 164</string>
+		<key>difference2</key>
+		<string>107 609 75 96</string>
+		<key>difference3</key>
+		<string>105 491 70 80</string>
+		<key>difference4</key>
+		<string>341 412 107 124</string>
+		<key>difference5</key>
+		<string>491 448 87 91</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image57.png</string>
+		<key>difference1</key>
+		<string>396 370 87 91</string>
+		<key>difference2</key>
+		<string>428 543 110 113</string>
+		<key>difference3</key>
+		<string>194 505 110 158</string>
+		<key>difference4</key>
+		<string>70 511 98 107</string>
+		<key>difference5</key>
+		<string>308 124 92 72</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image58.png</string>
+		<key>difference1</key>
+		<string>309 393 62 72</string>
+		<key>difference2</key>
+		<string>496 292 74 88</string>
+		<key>difference3</key>
+		<string>110 608 82 75</string>
+		<key>difference4</key>
+		<string>408 404 82 75</string>
+		<key>difference5</key>
+		<string>219 424 87 65</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image59.png</string>
+		<key>difference1</key>
+		<string>230 283 132 145</string>
+		<key>difference2</key>
+		<string>367 506 91 103</string>
+		<key>difference3</key>
+		<string>182 568 91 103</string>
+		<key>difference4</key>
+		<string>88 111 128 121</string>
+		<key>difference5</key>
+		<string>335 141 95 107</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image60.png</string>
+		<key>difference1</key>
+		<string>190 142 103 77</string>
+		<key>difference2</key>
+		<string>70 316 144 111</string>
+		<key>difference3</key>
+		<string>224 494 180 129</string>
+		<key>difference4</key>
+		<string>453 489 118 120</string>
+		<key>difference5</key>
+		<string>112 534 88 120</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image61.png</string>
+		<key>difference1</key>
+		<string>123 486 88 120</string>
+		<key>difference2</key>
+		<string>495 253 75 120</string>
+		<key>difference3</key>
+		<string>364 452 96 148</string>
+		<key>difference4</key>
+		<string>266 611 76 78</string>
+		<key>difference5</key>
+		<string>119 288 92 86</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image62.png</string>
+		<key>difference1</key>
+		<string>339 549 93 128</string>
+		<key>difference2</key>
+		<string>83 288 97 97</string>
+		<key>difference3</key>
+		<string>253 363 81 90</string>
+		<key>difference4</key>
+		<string>250 572 84 84</string>
+		<key>difference5</key>
+		<string>256 467 91 100</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image63.png</string>
+		<key>difference1</key>
+		<string>90 289 91 100</string>
+		<key>difference2</key>
+		<string>127 563 133 142</string>
+		<key>difference3</key>
+		<string>206 375 71 75</string>
+		<key>difference4</key>
+		<string>232 104 71 75</string>
+		<key>difference5</key>
+		<string>286 377 97 99</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image64.png</string>
+		<key>difference1</key>
+		<string>188 135 103 108</string>
+		<key>difference2</key>
+		<string>70 189 134 157</string>
+		<key>difference3</key>
+		<string>93 552 120 134</string>
+		<key>difference4</key>
+		<string>231 394 120 134</string>
+		<key>difference5</key>
+		<string>435 553 76 81</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image65.png</string>
+		<key>difference1</key>
+		<string>451 209 119 91</string>
+		<key>difference2</key>
+		<string>421 535 119 134</string>
+		<key>difference3</key>
+		<string>172 434 119 166</string>
+		<key>difference4</key>
+		<string>205 342 88 64</string>
+		<key>difference5</key>
+		<string>148 152 81 64</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image66.png</string>
+		<key>difference1</key>
+		<string>342 494 84 146</string>
+		<key>difference2</key>
+		<string>183 357 74 67</string>
+		<key>difference3</key>
+		<string>193 430 68 67</string>
+		<key>difference4</key>
+		<string>70 381 86 70</string>
+		<key>difference5</key>
+		<string>263 200 137 136</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image67.png</string>
+		<key>difference1</key>
+		<string>204 104 155 131</string>
+		<key>difference2</key>
+		<string>336 228 71 78</string>
+		<key>difference3</key>
+		<string>495 329 75 69</string>
+		<key>difference4</key>
+		<string>165 488 79 77</string>
+		<key>difference5</key>
+		<string>70 302 97 86</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image68.png</string>
+		<key>difference1</key>
+		<string>275 372 90 96</string>
+		<key>difference2</key>
+		<string>492 307 90 134</string>
+		<key>difference3</key>
+		<string>191 406 77 91</string>
+		<key>difference4</key>
+		<string>61 153 77 117</string>
+		<key>difference5</key>
+		<string>79 581 77 89</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image69.png</string>
+		<key>difference1</key>
+		<string>257 248 77 89</string>
+		<key>difference2</key>
+		<string>432 354 77 94</string>
+		<key>difference3</key>
+		<string>103 200 59 80</string>
+		<key>difference4</key>
+		<string>230 603 81 102</string>
+		<key>difference5</key>
+		<string>366 220 122 106</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image70.png</string>
+		<key>difference1</key>
+		<string>155 171 85 75</string>
+		<key>difference2</key>
+		<string>474 118 70 73</string>
+		<key>difference3</key>
+		<string>302 386 70 109</string>
+		<key>difference4</key>
+		<string>441 309 70 83</string>
+		<key>difference5</key>
+		<string>70 363 70 109</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image71.png</string>
+		<key>difference1</key>
+		<string>375 79 70 83</string>
+		<key>difference2</key>
+		<string>447 389 94 83</string>
+		<key>difference3</key>
+		<string>346 333 78 73</string>
+		<key>difference4</key>
+		<string>107 556 87 85</string>
+		<key>difference5</key>
+		<string>140 158 74 77</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image72.png</string>
+		<key>difference1</key>
+		<string>310 177 98 125</string>
+		<key>difference2</key>
+		<string>266 554 109 125</string>
+		<key>difference3</key>
+		<string>412 489 94 115</string>
+		<key>difference4</key>
+		<string>393 367 76 85</string>
+		<key>difference5</key>
+		<string>183 410 112 90</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image73.png</string>
+		<key>difference1</key>
+		<string>248 374 92 90</string>
+		<key>difference2</key>
+		<string>351 340 76 81</string>
+		<key>difference3</key>
+		<string>203 624 76 81</string>
+		<key>difference4</key>
+		<string>232 257 64 68</string>
+		<key>difference5</key>
+		<string>134 424 66 81</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image74.png</string>
+		<key>difference1</key>
+		<string>266 133 66 81</string>
+		<key>difference2</key>
+		<string>486 499 78 115</string>
+		<key>difference3</key>
+		<string>134 598 108 107</string>
+		<key>difference4</key>
+		<string>179 241 94 107</string>
+		<key>difference5</key>
+		<string>94 319 63 77</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image75.png</string>
+		<key>difference1</key>
+		<string>80 476 86 98</string>
+		<key>difference2</key>
+		<string>77 147 134 98</string>
+		<key>difference3</key>
+		<string>119 391 86 79</string>
+		<key>difference4</key>
+		<string>276 478 105 98</string>
+		<key>difference5</key>
+		<string>436 470 87 59</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image76.png</string>
+		<key>difference1</key>
+		<string>321 261 191 102</string>
+		<key>difference2</key>
+		<string>60 527 108 106</string>
+		<key>difference3</key>
+		<string>102 255 171 96</string>
+		<key>difference4</key>
+		<string>168 168 91 78</string>
+		<key>difference5</key>
+		<string>241 419 91 78</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image77.png</string>
+		<key>difference1</key>
+		<string>265 385 100 109</string>
+		<key>difference2</key>
+		<string>484 619 86 86</string>
+		<key>difference3</key>
+		<string>442 444 134 86</string>
+		<key>difference4</key>
+		<string>357 115 92 86</string>
+		<key>difference5</key>
+		<string>172 234 104 105</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image78.png</string>
+		<key>difference1</key>
+		<string>445 423 93 148</string>
+		<key>difference2</key>
+		<string>70 361 62 86</string>
+		<key>difference3</key>
+		<string>146 468 51 65</string>
+		<key>difference4</key>
+		<string>284 104 55 65</string>
+		<key>difference5</key>
+		<string>158 524 79 64</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image79.png</string>
+		<key>difference1</key>
+		<string>70 641 74 64</string>
+		<key>difference2</key>
+		<string>280 421 65 94</string>
+		<key>difference3</key>
+		<string>359 587 65 75</string>
+		<key>difference4</key>
+		<string>410 347 62 68</string>
+		<key>difference5</key>
+		<string>361 150 72 68</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image80.png</string>
+		<key>difference1</key>
+		<string>393 427 75 97</string>
+		<key>difference2</key>
+		<string>502 346 75 117</string>
+		<key>difference3</key>
+		<string>80 499 86 117</string>
+		<key>difference4</key>
+		<string>240 338 86 117</string>
+		<key>difference5</key>
+		<string>429 185 108 97</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image81.png</string>
+		<key>difference1</key>
+		<string>70 543 72 97</string>
+		<key>difference2</key>
+		<string>438 517 80 96</string>
+		<key>difference3</key>
+		<string>188 573 95 108</string>
+		<key>difference4</key>
+		<string>193 145 117 112</string>
+		<key>difference5</key>
+		<string>78 135 98 94</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image82.png</string>
+		<key>difference1</key>
+		<string>157 104 88 72</string>
+		<key>difference2</key>
+		<string>277 349 46 61</string>
+		<key>difference3</key>
+		<string>311 353 43 62</string>
+		<key>difference4</key>
+		<string>360 292 76 123</string>
+		<key>difference5</key>
+		<string>70 627 71 78</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image83.png</string>
+		<key>difference1</key>
+		<string>372 104 140 69</string>
+		<key>difference2</key>
+		<string>507 272 63 195</string>
+		<key>difference3</key>
+		<string>453 363 63 195</string>
+		<key>difference4</key>
+		<string>112 361 175 131</string>
+		<key>difference5</key>
+		<string>229 472 167 179</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image84.png</string>
+		<key>difference1</key>
+		<string>156 645 62 60</string>
+		<key>difference2</key>
+		<string>404 485 90 90</string>
+		<key>difference3</key>
+		<string>217 418 97 90</string>
+		<key>difference4</key>
+		<string>258 530 67 69</string>
+		<key>difference5</key>
+		<string>163 193 78 69</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image85.png</string>
+		<key>difference1</key>
+		<string>104 358 78 131</string>
+		<key>difference2</key>
+		<string>440 585 118 94</string>
+		<key>difference3</key>
+		<string>269 436 118 87</string>
+		<key>difference4</key>
+		<string>378 331 90 78</string>
+		<key>difference5</key>
+		<string>124 139 90 78</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image86.png</string>
+		<key>difference1</key>
+		<string>282 515 99 91</string>
+		<key>difference2</key>
+		<string>344 607 139 98</string>
+		<key>difference3</key>
+		<string>418 390 139 98</string>
+		<key>difference4</key>
+		<string>268 306 76 98</string>
+		<key>difference5</key>
+		<string>139 441 62 65</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image87.png</string>
+		<key>difference1</key>
+		<string>318 442 87 65</string>
+		<key>difference2</key>
+		<string>169 457 64 130</string>
+		<key>difference3</key>
+		<string>124 571 111 96</string>
+		<key>difference4</key>
+		<string>162 356 99 96</string>
+		<key>difference5</key>
+		<string>375 168 71 77</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image88.png</string>
+		<key>difference1</key>
+		<string>133 489 71 77</string>
+		<key>difference2</key>
+		<string>243 463 69 69</string>
+		<key>difference3</key>
+		<string>326 572 62 67</string>
+		<key>difference4</key>
+		<string>385 119 102 74</string>
+		<key>difference5</key>
+		<string>278 233 135 85</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image89.png</string>
+		<key>difference1</key>
+		<string>382 332 102 80</string>
+		<key>difference2</key>
+		<string>82 487 80 71</string>
+		<key>difference3</key>
+		<string>162 522 71 142</string>
+		<key>difference4</key>
+		<string>193 187 71 80</string>
+		<key>difference5</key>
+		<string>314 184 67 71</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image90.png</string>
+		<key>difference1</key>
+		<string>251 498 67 82</string>
+		<key>difference2</key>
+		<string>316 363 66 117</string>
+		<key>difference3</key>
+		<string>183 297 69 80</string>
+		<key>difference4</key>
+		<string>100 605 127 86</string>
+		<key>difference5</key>
+		<string>126 256 58 86</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image91.png</string>
+		<key>difference1</key>
+		<string>58 476 90 73</string>
+		<key>difference2</key>
+		<string>274 324 79 63</string>
+		<key>difference3</key>
+		<string>178 522 64 63</string>
+		<key>difference4</key>
+		<string>288 121 64 63</string>
+		<key>difference5</key>
+		<string>208 581 107 95</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image92.png</string>
+		<key>difference1</key>
+		<string>162 565 107 95</string>
+		<key>difference2</key>
+		<string>120 252 117 129</string>
+		<key>difference3</key>
+		<string>375 286 108 129</string>
+		<key>difference4</key>
+		<string>459 88 97 83</string>
+		<key>difference5</key>
+		<string>209 159 78 106</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image93.png</string>
+		<key>difference1</key>
+		<string>273 104 65 76</string>
+		<key>difference2</key>
+		<string>173 293 77 93</string>
+		<key>difference3</key>
+		<string>284 330 72 61</string>
+		<key>difference4</key>
+		<string>389 341 93 101</string>
+		<key>difference5</key>
+		<string>144 470 93 118</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image94.png</string>
+		<key>difference1</key>
+		<string>388 597 193 108</string>
+		<key>difference2</key>
+		<string>488 486 103 108</string>
+		<key>difference3</key>
+		<string>278 477 84 103</string>
+		<key>difference4</key>
+		<string>361 469 84 90</string>
+		<key>difference5</key>
+		<string>97 324 84 90</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image95.png</string>
+		<key>difference1</key>
+		<string>302 202 105 160</string>
+		<key>difference2</key>
+		<string>477 374 105 86</string>
+		<key>difference3</key>
+		<string>55 331 105 129</string>
+		<key>difference4</key>
+		<string>60 564 91 141</string>
+		<key>difference5</key>
+		<string>224 138 91 61</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image96.png</string>
+		<key>difference1</key>
+		<string>500 415 91 74</string>
+		<key>difference2</key>
+		<string>454 592 136 113</string>
+		<key>difference3</key>
+		<string>444 123 136 141</string>
+		<key>difference4</key>
+		<string>223 118 95 89</string>
+		<key>difference5</key>
+		<string>347 241 95 119</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image97.png</string>
+		<key>difference1</key>
+		<string>504 323 90 100</string>
+		<key>difference2</key>
+		<string>355 398 158 84</string>
+		<key>difference3</key>
+		<string>70 478 140 87</string>
+		<key>difference4</key>
+		<string>151 574 123 118</string>
+		<key>difference5</key>
+		<string>232 96 101 99</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image98.png</string>
+		<key>difference1</key>
+		<string>288 507 79 78</string>
+		<key>difference2</key>
+		<string>417 539 79 78</string>
+		<key>difference3</key>
+		<string>422 299 81 91</string>
+		<key>difference4</key>
+		<string>62 283 143 136</string>
+		<key>difference5</key>
+		<string>201 579 93 96</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image99.png</string>
+		<key>difference1</key>
+		<string>492 303 93 118</string>
+		<key>difference2</key>
+		<string>305 332 93 82</string>
+		<key>difference3</key>
+		<string>148 577 90 140</string>
+		<key>difference4</key>
+		<string>65 95 85 118</string>
+		<key>difference5</key>
+		<string>327 169 85 81</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image100.png</string>
+		<key>difference1</key>
+		<string>490 243 80 75</string>
+		<key>difference2</key>
+		<string>409 192 104 74</string>
+		<key>difference3</key>
+		<string>346 527 104 172</string>
+		<key>difference4</key>
+		<string>132 417 97 236</string>
+		<key>difference5</key>
+		<string>210 121 90 104</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image101.png</string>
+		<key>difference1</key>
+		<string>57 255 113 181</string>
+		<key>difference2</key>
+		<string>352 627 161 92</string>
+		<key>difference3</key>
+		<string>473 429 120 103</string>
+		<key>difference4</key>
+		<string>305 327 95 139</string>
+		<key>difference5</key>
+		<string>221 148 114 120</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image102.png</string>
+		<key>difference1</key>
+		<string>473 315 96 114</string>
+		<key>difference2</key>
+		<string>99 524 89 93</string>
+		<key>difference3</key>
+		<string>391 490 77 76</string>
+		<key>difference4</key>
+		<string>212 86 152 113</string>
+		<key>difference5</key>
+		<string>50 299 110 113</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image103.png</string>
+		<key>difference1</key>
+		<string>162 468 102 109</string>
+		<key>difference2</key>
+		<string>378 512 82 90</string>
+		<key>difference3</key>
+		<string>334 389 82 95</string>
+		<key>difference4</key>
+		<string>345 618 113 87</string>
+		<key>difference5</key>
+		<string>138 235 103 99</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image104.png</string>
+		<key>difference1</key>
+		<string>392 478 80 76</string>
+		<key>difference2</key>
+		<string>86 285 80 89</string>
+		<key>difference3</key>
+		<string>193 490 95 97</string>
+		<key>difference4</key>
+		<string>415 334 95 67</string>
+		<key>difference5</key>
+		<string>431 168 72 69</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image105.png</string>
+		<key>difference1</key>
+		<string>426 503 81 93</string>
+		<key>difference2</key>
+		<string>476 636 73 93</string>
+		<key>difference3</key>
+		<string>215 380 114 84</string>
+		<key>difference4</key>
+		<string>63 96 114 84</string>
+		<key>difference5</key>
+		<string>145 523 114 170</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image106.png</string>
+		<key>difference1</key>
+		<string>287 104 239 232</string>
+		<key>difference2</key>
+		<string>136 394 108 151</string>
+		<key>difference3</key>
+		<string>327 581 108 140</string>
+		<key>difference4</key>
+		<string>390 508 94 108</string>
+		<key>difference5</key>
+		<string>141 116 99 140</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image107.png</string>
+		<key>difference1</key>
+		<string>415 426 99 219</string>
+		<key>difference2</key>
+		<string>260 323 90 120</string>
+		<key>difference3</key>
+		<string>184 244 101 87</string>
+		<key>difference4</key>
+		<string>145 309 66 131</string>
+		<key>difference5</key>
+		<string>54 238 89 121</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image108.png</string>
+		<key>difference1</key>
+		<string>96 240 76 84</string>
+		<key>difference2</key>
+		<string>192 565 78 131</string>
+		<key>difference3</key>
+		<string>313 588 119 131</string>
+		<key>difference4</key>
+		<string>127 381 87 85</string>
+		<key>difference5</key>
+		<string>467 611 68 77</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image109.png</string>
+		<key>difference1</key>
+		<string>227 207 78 113</string>
+		<key>difference2</key>
+		<string>448 329 87 91</string>
+		<key>difference3</key>
+		<string>461 231 119 91</string>
+		<key>difference4</key>
+		<string>238 305 113 88</string>
+		<key>difference5</key>
+		<string>194 378 96 100</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image110.png</string>
+		<key>difference1</key>
+		<string>342 288 86 62</string>
+		<key>difference2</key>
+		<string>448 104 81 88</string>
+		<key>difference3</key>
+		<string>260 505 73 51</string>
+		<key>difference4</key>
+		<string>253 430 67 79</string>
+		<key>difference5</key>
+		<string>55 413 110 81</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image111.png</string>
+		<key>difference1</key>
+		<string>55 416 124 72</string>
+		<key>difference2</key>
+		<string>290 594 77 74</string>
+		<key>difference3</key>
+		<string>343 92 81 181</string>
+		<key>difference4</key>
+		<string>393 375 81 88</string>
+		<key>difference5</key>
+		<string>293 480 81 88</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image112.png</string>
+		<key>difference1</key>
+		<string>463 438 107 137</string>
+		<key>difference2</key>
+		<string>434 579 125 137</string>
+		<key>difference3</key>
+		<string>54 426 125 132</string>
+		<key>difference4</key>
+		<string>222 586 125 132</string>
+		<key>difference5</key>
+		<string>97 327 83 82</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image113.png</string>
+		<key>difference1</key>
+		<string>296 201 97 111</string>
+		<key>difference2</key>
+		<string>151 293 97 111</string>
+		<key>difference3</key>
+		<string>154 185 76 103</string>
+		<key>difference4</key>
+		<string>479 520 100 114</string>
+		<key>difference5</key>
+		<string>36 501 100 204</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image114.png</string>
+		<key>difference1</key>
+		<string>76 121 114 170</string>
+		<key>difference2</key>
+		<string>438 165 114 93</string>
+		<key>difference3</key>
+		<string>441 313 86 71</string>
+		<key>difference4</key>
+		<string>265 617 99 76</string>
+		<key>difference5</key>
+		<string>70 504 90 76</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image115.png</string>
+		<key>difference1</key>
+		<string>204 360 109 96</string>
+		<key>difference2</key>
+		<string>151 179 149 96</string>
+		<key>difference3</key>
+		<string>403 510 95 78</string>
+		<key>difference4</key>
+		<string>222 558 99 118</string>
+		<key>difference5</key>
+		<string>323 220 77 89</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image116.png</string>
+		<key>difference1</key>
+		<string>364 104 81 89</string>
+		<key>difference2</key>
+		<string>362 480 89 117</string>
+		<key>difference3</key>
+		<string>453 591 93 100</string>
+		<key>difference4</key>
+		<string>81 618 93 100</string>
+		<key>difference5</key>
+		<string>451 328 84 54</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image117.png</string>
+		<key>difference1</key>
+		<string>89 207 84 75</string>
+		<key>difference2</key>
+		<string>207 529 82 186</string>
+		<key>difference3</key>
+		<string>407 271 63 170</string>
+		<key>difference4</key>
+		<string>258 239 98 124</string>
+		<key>difference5</key>
+		<string>127 143 84 61</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image118.png</string>
+		<key>difference1</key>
+		<string>455 87 47 207</string>
+		<key>difference2</key>
+		<string>495 151 99 220</string>
+		<key>difference3</key>
+		<string>159 360 104 63</string>
+		<key>difference4</key>
+		<string>102 293 56 63</string>
+		<key>difference5</key>
+		<string>173 488 56 110</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image119.png</string>
+		<key>difference1</key>
+		<string>326 382 56 67</string>
+		<key>difference2</key>
+		<string>194 393 63 150</string>
+		<key>difference3</key>
+		<string>398 391 68 75</string>
+		<key>difference4</key>
+		<string>292 89 175 91</string>
+		<key>difference5</key>
+		<string>163 571 103 77</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image120.png</string>
+		<key>difference1</key>
+		<string>346 261 93 101</string>
+		<key>difference2</key>
+		<string>99 317 93 93</string>
+		<key>difference3</key>
+		<string>86 192 119 132</string>
+		<key>difference4</key>
+		<string>415 616 164 83</string>
+		<key>difference5</key>
+		<string>290 423 164 83</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image121.png</string>
+		<key>difference1</key>
+		<string>306 244 89 64</string>
+		<key>difference2</key>
+		<string>397 348 89 64</string>
+		<key>difference3</key>
+		<string>476 430 109 95</string>
+		<key>difference4</key>
+		<string>209 560 68 113</string>
+		<key>difference5</key>
+		<string>213 257 89 90</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image122.png</string>
+		<key>difference1</key>
+		<string>367 609 89 90</string>
+		<key>difference2</key>
+		<string>396 273 107 57</string>
+		<key>difference3</key>
+		<string>138 169 140 129</string>
+		<key>difference4</key>
+		<string>370 455 115 119</string>
+		<key>difference5</key>
+		<string>344 114 62 67</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image123.png</string>
+		<key>difference1</key>
+		<string>221 99 122 70</string>
+		<key>difference2</key>
+		<string>454 125 99 79</string>
+		<key>difference3</key>
+		<string>277 340 107 88</string>
+		<key>difference4</key>
+		<string>506 548 71 118</string>
+		<key>difference5</key>
+		<string>111 416 71 118</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image124.png</string>
+		<key>difference1</key>
+		<string>156 260 109 63</string>
+		<key>difference2</key>
+		<string>416 271 105 75</string>
+		<key>difference3</key>
+		<string>496 423 74 94</string>
+		<key>difference4</key>
+		<string>178 577 72 78</string>
+		<key>difference5</key>
+		<string>362 503 86 100</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image125.png</string>
+		<key>difference1</key>
+		<string>340 192 81 81</string>
+		<key>difference2</key>
+		<string>461 305 81 81</string>
+		<key>difference3</key>
+		<string>162 445 72 111</string>
+		<key>difference4</key>
+		<string>372 637 74 83</string>
+		<key>difference5</key>
+		<string>468 560 122 109</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image126.png</string>
+		<key>difference1</key>
+		<string>174 269 79 81</string>
+		<key>difference2</key>
+		<string>477 98 116 319</string>
+		<key>difference3</key>
+		<string>427 388 61 83</string>
+		<key>difference4</key>
+		<string>125 598 70 83</string>
+		<key>difference5</key>
+		<string>322 567 76 67</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image127.png</string>
+		<key>difference1</key>
+		<string>487 440 91 72</string>
+		<key>difference2</key>
+		<string>207 299 101 87</string>
+		<key>difference3</key>
+		<string>258 610 101 87</string>
+		<key>difference4</key>
+		<string>257 435 94 85</string>
+		<key>difference5</key>
+		<string>158 491 132 85</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image128.png</string>
+		<key>difference1</key>
+		<string>160 110 121 175</string>
+		<key>difference2</key>
+		<string>409 187 79 117</string>
+		<key>difference3</key>
+		<string>378 482 147 87</string>
+		<key>difference4</key>
+		<string>138 344 105 78</string>
+		<key>difference5</key>
+		<string>315 96 103 143</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image129.png</string>
+		<key>difference1</key>
+		<string>62 125 104 122</string>
+		<key>difference2</key>
+		<string>377 471 78 173</string>
+		<key>difference3</key>
+		<string>276 266 64 114</string>
+		<key>difference4</key>
+		<string>96 415 90 114</string>
+		<key>difference5</key>
+		<string>449 307 71 107</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image130.png</string>
+		<key>difference1</key>
+		<string>70 124 71 107</string>
+		<key>difference2</key>
+		<string>126 504 83 75</string>
+		<key>difference3</key>
+		<string>198 584 71 69</string>
+		<key>difference4</key>
+		<string>370 504 126 116</string>
+		<key>difference5</key>
+		<string>354 363 77 73</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image131.png</string>
+		<key>difference1</key>
+		<string>458 93 69 122</string>
+		<key>difference2</key>
+		<string>424 577 99 110</string>
+		<key>difference3</key>
+		<string>125 421 133 68</string>
+		<key>difference4</key>
+		<string>252 548 93 146</string>
+		<key>difference5</key>
+		<string>243 196 93 75</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image132.png</string>
+		<key>difference1</key>
+		<string>370 88 129 59</string>
+		<key>difference2</key>
+		<string>449 581 121 65</string>
+		<key>difference3</key>
+		<string>271 156 71 65</string>
+		<key>difference4</key>
+		<string>115 236 61 78</string>
+		<key>difference5</key>
+		<string>229 586 61 78</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image133.png</string>
+		<key>difference1</key>
+		<string>132 89 117 78</string>
+		<key>difference2</key>
+		<string>60 540 94 78</string>
+		<key>difference3</key>
+		<string>238 577 79 128</string>
+		<key>difference4</key>
+		<string>154 381 62 81</string>
+		<key>difference5</key>
+		<string>409 551 62 160</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image134.png</string>
+		<key>difference1</key>
+		<string>196 140 65 92</string>
+		<key>difference2</key>
+		<string>358 501 73 96</string>
+		<key>difference3</key>
+		<string>404 608 74 97</string>
+		<key>difference4</key>
+		<string>70 355 133 168</string>
+		<key>difference5</key>
+		<string>322 180 92 86</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image135.png</string>
+		<key>difference1</key>
+		<string>81 485 90 122</string>
+		<key>difference2</key>
+		<string>94 302 66 83</string>
+		<key>difference3</key>
+		<string>204 426 85 76</string>
+		<key>difference4</key>
+		<string>339 333 108 139</string>
+		<key>difference5</key>
+		<string>263 268 91 57</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image136.png</string>
+		<key>difference1</key>
+		<string>426 255 57 58</string>
+		<key>difference2</key>
+		<string>483 423 59 107</string>
+		<key>difference3</key>
+		<string>202 286 59 112</string>
+		<key>difference4</key>
+		<string>246 256 83 56</string>
+		<key>difference5</key>
+		<string>145 223 56 108</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image137.png</string>
+		<key>difference1</key>
+		<string>162 451 86 82</string>
+		<key>difference2</key>
+		<string>274 570 95 143</string>
+		<key>difference3</key>
+		<string>409 606 119 111</string>
+		<key>difference4</key>
+		<string>410 477 99 78</string>
+		<key>difference5</key>
+		<string>357 98 218 111</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image138.png</string>
+		<key>difference1</key>
+		<string>187 272 114 68</string>
+		<key>difference2</key>
+		<string>184 572 126 107</string>
+		<key>difference3</key>
+		<string>52 310 132 113</string>
+		<key>difference4</key>
+		<string>490 300 67 60</string>
+		<key>difference5</key>
+		<string>449 215 59 57</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image139.png</string>
+		<key>difference1</key>
+		<string>162 412 48 157</string>
+		<key>difference2</key>
+		<string>105 471 52 101</string>
+		<key>difference3</key>
+		<string>277 355 60 72</string>
+		<key>difference4</key>
+		<string>227 150 60 72</string>
+		<key>difference5</key>
+		<string>271 135 81 57</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image140.png</string>
+		<key>difference1</key>
+		<string>170 104 295 103</string>
+		<key>difference2</key>
+		<string>412 415 81 75</string>
+		<key>difference3</key>
+		<string>458 396 125 66</string>
+		<key>difference4</key>
+		<string>231 523 60 58</string>
+		<key>difference5</key>
+		<string>286 464 83 67</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image141.png</string>
+		<key>difference1</key>
+		<string>101 565 83 67</string>
+		<key>difference2</key>
+		<string>284 590 72 65</string>
+		<key>difference3</key>
+		<string>359 454 59 152</string>
+		<key>difference4</key>
+		<string>250 450 61 98</string>
+		<key>difference5</key>
+		<string>273 131 65 71</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image142.png</string>
+		<key>difference1</key>
+		<string>326 94 251 108</string>
+		<key>difference2</key>
+		<string>382 353 94 74</string>
+		<key>difference3</key>
+		<string>305 640 81 59</string>
+		<key>difference4</key>
+		<string>70 95 84 71</string>
+		<key>difference5</key>
+		<string>214 430 97 110</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image144.png</string>
+		<key>difference1</key>
+		<string>505 335 82 90</string>
+		<key>difference2</key>
+		<string>135 456 127 190</string>
+		<key>difference3</key>
+		<string>415 412 61 58</string>
+		<key>difference4</key>
+		<string>325 340 115 58</string>
+		<key>difference5</key>
+		<string>375 116 90 67</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>image145.png</string>
+		<key>difference1</key>
+		<string>391 95 65 169</string>
+		<key>difference2</key>
+		<string>64 178 203 74</string>
+		<key>difference3</key>
+		<string>59 271 203 74</string>
+		<key>difference4</key>
+		<string>239 270 84 110</string>
+		<key>difference5</key>
+		<string>252 571 84 110</string>
+	</dict>
+</array>
+</plist>
