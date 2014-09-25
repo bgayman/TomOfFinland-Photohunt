@@ -40,10 +40,10 @@
     self.scoreView.gameScore = self.gameScore;
     self._delegate = (PhotoHuntViewController *)self.presentingViewController;
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Seamless Leather Pattern.png"]]];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(done)];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:self action:@selector(done)];
     [self.navBar setItems:@[self.navigationItem]];
     UIFont *scoreFont = [UIFont fontWithName:@"Arial-BoldMT" size:23.0];
-    NSMutableDictionary *sAttribs =[[NSMutableDictionary alloc]initWithObjectsAndKeys:scoreFont,UITextAttributeFont, [UIColor blackColor],UITextAttributeTextShadowColor,[NSValue valueWithUIOffset:UIOffsetMake(1.0, -1.1)],UITextAttributeTextShadowOffset,[UIColor colorWithWhite:1.0 alpha:.75],UITextAttributeTextColor, nil];
+    NSMutableDictionary *sAttribs =[[NSMutableDictionary alloc]initWithObjectsAndKeys:scoreFont,UITextAttributeFont, [UIColor lightTextColor],UITextAttributeTextShadowColor,[NSValue valueWithUIOffset:UIOffsetMake(1.0, -1.1)],UITextAttributeTextShadowOffset,[UIColor colorWithWhite:0.0 alpha:.75],UITextAttributeTextColor, nil];
     
     [self.navBar setTitleTextAttributes:sAttribs];
     self.navBar.topItem.title = @"HIGH SCORE";
