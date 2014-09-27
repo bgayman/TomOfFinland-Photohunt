@@ -2006,20 +2006,6 @@
 	</dict>
 	<dict>
 		<key>image</key>
-		<string>image144.png</string>
-		<key>difference1</key>
-		<string>505 335 82 90</string>
-		<key>difference2</key>
-		<string>135 456 127 190</string>
-		<key>difference3</key>
-		<string>415 412 61 58</string>
-		<key>difference4</key>
-		<string>325 340 115 58</string>
-		<key>difference5</key>
-		<string>375 116 90 67</string>
-	</dict>
-	<dict>
-		<key>image</key>
 		<string>image145.png</string>
 		<key>difference1</key>
 		<string>391 95 65 169</string>
