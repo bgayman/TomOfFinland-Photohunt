@@ -2065,6 +2065,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 05B16CFF16E0410B007326F5;
@@ -2788,7 +2789,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToF Photo Hunt/ToF Photo Hunt-Prefix.pch";
 				INFOPLIST_FILE = "ToF Photo Hunt/ToF Photo Hunt-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -2861,7 +2862,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToF Photo Hunt/ToF Photo Hunt-Prefix.pch";
 				INFOPLIST_FILE = "ToF Photo Hunt/ToF Photo Hunt-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -2876,7 +2877,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToF Photo Hunt/ToF Photo Hunt-Prefix.pch";
 				INFOPLIST_FILE = "ToF Photo Hunt/ToF Photo Hunt-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
