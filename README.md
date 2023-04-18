@@ -6,3 +6,6 @@ Classic spot the difference photo hunt game using images created by gay erotic a
 Releasing this for those interested in one possible implementation of photo-hunt-type game, not that it’s particularly complex. I did this more as a proof of concept/coursework, knowing it would never make it into the app store.
 
 
+![screen shot](IMG_0407.PNG)
+![screen shot](IMG_0408.PNG)
+![screen shot](IMG_0409.PNG)
