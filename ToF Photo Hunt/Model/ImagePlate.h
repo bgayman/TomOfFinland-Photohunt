@@ -19,6 +19,7 @@
 @property (strong, nonatomic) Difference *difference3;
 @property (strong, nonatomic) Difference *difference4;
 @property (strong, nonatomic) Difference *difference5;
+@property (nonatomic) BOOL isExplicit;
 
 
 -(Difference *)touchedDifference:(CGPoint)tapLocation;

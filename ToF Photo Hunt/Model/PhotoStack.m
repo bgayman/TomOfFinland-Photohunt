@@ -34,6 +34,10 @@
         ImagePlate *imagePlate= [[ImagePlate alloc]init];
         imagePlate.imageA = [UIImage imageNamed:[NSString stringWithFormat:@"A%@",[dict objectForKey:@"image"]]];
         imagePlate.imageB = [UIImage imageNamed:[NSString stringWithFormat:@"B%@",[dict objectForKey:@"image"]]];
+        if ([dict objectForKey:@"isExplicit"]) {
+            NSNumber *e = (NSNumber *)[dict objectForKey:@"isExplicit"];
+            imagePlate.isExplicit = [e boolValue];
+        }
         if (!imagePlate.imageA) {
             NSLog(@"%@",[dict objectForKey:@"image"]);
         }
@@ -100,6 +104,9 @@
         unsigned index=arc4random()%self.imagePlates.count;
         randomImagePlate=self.imagePlates[index];
         [self.imagePlates removeObjectAtIndex:index];
+        if (![[NSUserDefaults standardUserDefaults] boolForKey:@"allowExplicit"] && randomImagePlate.isExplicit) {
+            return [self drawRandomImagePlate];
+        }
     }
     return randomImagePlate;
 }
