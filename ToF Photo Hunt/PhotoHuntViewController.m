@@ -23,6 +23,7 @@
 @property (nonatomic, strong) NSTimer *timer;
 @property (weak, nonatomic) IBOutlet UIButton *pauseButton;
 @property (weak, nonatomic) IBOutlet UILabel *gameScoreLabel;
+@property (weak, nonatomic) IBOutlet UIStackView *imagePlateStackView;
 
 
 @end
@@ -71,8 +72,11 @@
 }
 
 
--(void) viewDidLoad{
+-(void)viewDidLoad
+{
     [super viewDidLoad];
+    
+    self.imagePlateStackView.axis = self.traitCollection.horizontalSizeClass == UIUserInterfaceSizeClassCompact ? UILayoutConstraintAxisVertical : UILayoutConstraintAxisHorizontal;
     
     [self setNeedsStatusBarAppearanceUpdate];
 
@@ -85,7 +89,23 @@
     self.pauseButton.selected=YES;
 }
 
--(UIStatusBarStyle)preferredStatusBarStyle{
+-(void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    self.imagePlateA.layer.shadowOffset = CGSizeMake(2.0, 5.0);
+    self.imagePlateA.layer.shadowRadius = 5;
+    self.imagePlateA.layer.shadowOpacity = 0.5;
+    self.imagePlateA.layer.shadowColor = [UIColor blackColor].CGColor;
+    self.imagePlateA.layer.shadowPath = [UIBezierPath bezierPathWithRect:self.imagePlateA.bounds].CGPath;
+    self.imagePlateB.layer.shadowOffset = CGSizeMake(2.0, 5.0);
+    self.imagePlateB.layer.shadowRadius = 5;
+    self.imagePlateB.layer.shadowOpacity = 0.5;
+    self.imagePlateB.layer.shadowColor = [UIColor blackColor].CGColor;
+    self.imagePlateB.layer.shadowPath = [UIBezierPath bezierPathWithRect:self.imagePlateB.bounds].CGPath;
+}
+
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
     return UIStatusBarStyleLightContent;
 }
 
@@ -304,11 +324,11 @@
         self.pauseButton.selected=!self.pauseButton.selected;
         [self startLevel];
     }else{
-        CGPoint tapLocation = [gesture locationInView:self.imagePlateA];
+        CGPoint tapLocation = [self applyScale:[gesture locationInView:self.imagePlateA]];
         //NSLog(@"%f %f",tapLocation.x,tapLocation.y);
         if ([self.game touchedDifference:tapLocation]){
-            [self.imagePlateA setNeedsDisplayInRect:CGRectInset([self.game touchedDifference:tapLocation].differenceRect,-2.0,-2.0)];
-            [self.imagePlateB setNeedsDisplayInRect:CGRectInset([self.game touchedDifference:tapLocation].differenceRect,-2.0,-2.0)];
+            [self.imagePlateA setNeedsDisplayInRect:[self.imagePlateA applyScale:CGRectInset([self.game touchedDifference:tapLocation].differenceRect,-2.0,-2.0)]];
+            [self.imagePlateB setNeedsDisplayInRect:[self.imagePlateB applyScale:CGRectInset([self.game touchedDifference:tapLocation].differenceRect,-2.0,-2.0)]];
             if ([self.game finishedLevel]) {
                 [self.timer invalidate];
                 [self scoreAnimation];
@@ -329,10 +349,10 @@
         self.pauseButton.selected=!self.pauseButton.selected;
         [self startLevel];
     }else{
-        CGPoint tapLocation = [gesture locationInView:self.imagePlateB];
+        CGPoint tapLocation = [self applyScale:[gesture locationInView:self.imagePlateB]];
         if ([self.game touchedDifference:tapLocation]){
-            [self.imagePlateA setNeedsDisplayInRect:CGRectInset([self.game touchedDifference:tapLocation].differenceRect,-2.0,-2.0)];
-            [self.imagePlateB setNeedsDisplayInRect:CGRectInset([self.game touchedDifference:tapLocation].differenceRect,-2.0,-2.0)];
+            [self.imagePlateA setNeedsDisplayInRect:[self.imagePlateA applyScale:CGRectInset([self.game touchedDifference:tapLocation].differenceRect,-2.0,-2.0)]];
+            [self.imagePlateB setNeedsDisplayInRect:[self.imagePlateB applyScale:CGRectInset([self.game touchedDifference:tapLocation].differenceRect,-2.0,-2.0)]];
             if ([self.game finishedLevel]) {
                 [self.timer invalidate];
                 [self scoreAnimation];
@@ -345,6 +365,12 @@
     }
 }
 
+- (CGPoint)applyScale:(CGPoint)point {
+    CGFloat xScale = 500.0 / self.imagePlateA.bounds.size.width * point.x;
+    CGFloat yScale = 600.0 / self.imagePlateA.bounds.size.height * point.y;
+    return CGPointMake(xScale, yScale);
+}
+
 - (IBAction)hintTapped:(UIButton *)sender {
     if (self.imagePlateA.faceUp) {
         Difference *hint = [[Difference alloc] init];
@@ -352,10 +378,9 @@
         if (hint) {
             sender.enabled = NO;
             sender.alpha = 0.7;
-            [self.imagePlateA setNeedsDisplayInRect:CGRectInset(hint.differenceRect,-2.0,-2.0)];
-            [self.imagePlateB setNeedsDisplayInRect:CGRectInset(hint.differenceRect,-2.0,-2.0)];
+            [self.imagePlateA setNeedsDisplayInRect:[self.imagePlateA applyScale:CGRectInset(hint.differenceRect,-2.0,-2.0)]];
+            [self.imagePlateB setNeedsDisplayInRect:[self.imagePlateB applyScale:CGRectInset(hint.differenceRect,-2.0,-2.0)]];
         }
-        NSLog(@"%@",[self.huntButtons description]);
     }
 }
 

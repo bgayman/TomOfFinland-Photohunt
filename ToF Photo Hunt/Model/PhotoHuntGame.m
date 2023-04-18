@@ -32,7 +32,6 @@
 -(BOOL)nextLevel;
 {
     [self.imagePlates removeLastObject];
-    NSLog(@"%d",[self.imagePlates count]);
     if ([self.imagePlates count]!=0) {
         self.gameScore+=self.levelScore;
         self.gameScore+=self.hintsLeft*1000;

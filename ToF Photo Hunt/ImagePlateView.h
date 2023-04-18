@@ -21,5 +21,6 @@
 
 @property (nonatomic) BOOL faceUp;
 
+-(CGRect) applyScale:(CGRect)rect;
 
 @end

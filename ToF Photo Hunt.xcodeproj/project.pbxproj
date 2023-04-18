@@ -598,6 +598,7 @@
 		05B273A81719FBE4001130CA /* newScoreImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B273A61719FBE4001130CA /* newScoreImage.png */; };
 		05B273A91719FBE4001130CA /* newScoreImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B273A71719FBE4001130CA /* newScoreImage@2x.png */; };
 		05B273AC1719FC7E001130CA /* NewScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B273AB1719FC7E001130CA /* NewScoreView.m */; };
+		05C818E629EF1D1500BC7E22 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C818E529EF1D1500BC7E22 /* Launch Screen.storyboard */; };
 		05C9CD4716E94FEF005D7F7D /* Bimage68.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C9CD4316E94FEF005D7F7D /* Bimage68.png */; };
 		05C9CD4816E94FEF005D7F7D /* Bimage68@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C9CD4416E94FEF005D7F7D /* Bimage68@2x.png */; };
 		05C9CD4916E94FEF005D7F7D /* Aimage68.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C9CD4516E94FEF005D7F7D /* Aimage68.png */; };
@@ -1254,6 +1255,7 @@
 		05B273A71719FBE4001130CA /* newScoreImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newScoreImage@2x.png"; sourceTree = "<group>"; };
 		05B273AA1719FC7E001130CA /* NewScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewScoreView.h; sourceTree = "<group>"; };
 		05B273AB1719FC7E001130CA /* NewScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewScoreView.m; sourceTree = "<group>"; };
+		05C818E529EF1D1500BC7E22 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		05C9CD4316E94FEF005D7F7D /* Bimage68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bimage68.png; sourceTree = "<group>"; };
 		05C9CD4416E94FEF005D7F7D /* Bimage68@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bimage68@2x.png"; sourceTree = "<group>"; };
 		05C9CD4516E94FEF005D7F7D /* Aimage68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aimage68.png; sourceTree = "<group>"; };
@@ -1945,6 +1947,7 @@
 				05B16D1A16E0410B007326F5 /* PhotoHuntAppDelegate.h */,
 				05B16D1B16E0410B007326F5 /* PhotoHuntAppDelegate.m */,
 				05B16D2316E0410C007326F5 /* MainStoryboard.storyboard */,
+				05C818E529EF1D1500BC7E22 /* Launch Screen.storyboard */,
 				05ADEA3716E2925F008B9B67 /* StartScreenViewController.h */,
 				05ADEA3816E2925F008B9B67 /* StartScreenViewController.m */,
 				05B16D2616E0410C007326F5 /* PhotoHuntViewController.h */,
@@ -2055,11 +2058,6 @@
 				CLASSPREFIX = PhotoHunt;
 				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = b.gay;
-				TargetAttributes = {
-					05B16D0716E0410B007326F5 = {
-						DevelopmentTeam = 8DDUQH2RUD;
-					};
-				};
 			};
 			buildConfigurationList = 05B16D0316E0410B007326F5 /* Build configuration list for PBXProject "ToF Photo Hunt" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2522,6 +2520,7 @@
 				05AACC0B16EBCD3D00DDA636 /* Aimage99@2x.png in Resources */,
 				05AACC1216EBD1DB00DDA636 /* Bimage100.png in Resources */,
 				05AACC1316EBD1DB00DDA636 /* Bimage100@2x.png in Resources */,
+				05C818E629EF1D1500BC7E22 /* Launch Screen.storyboard in Resources */,
 				05AACC1416EBD1DB00DDA636 /* Aimage100.png in Resources */,
 				05AACC1516EBD1DB00DDA636 /* Aimage100@2x.png in Resources */,
 				05AACC1A16EC413000DDA636 /* Aimage101.png in Resources */,
@@ -2806,6 +2805,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8DDUQH2RUD;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToF Photo Hunt/ToF Photo Hunt-Prefix.pch";
 				INFOPLIST_FILE = "ToF Photo Hunt/ToF Photo Hunt-Info.plist";
@@ -2813,6 +2813,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bradgaymans.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Distribution;
@@ -2919,6 +2923,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8DDUQH2RUD;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToF Photo Hunt/ToF Photo Hunt-Prefix.pch";
 				INFOPLIST_FILE = "ToF Photo Hunt/ToF Photo Hunt-Info.plist";
@@ -2926,6 +2931,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bradgaymans.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2935,6 +2944,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8DDUQH2RUD;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToF Photo Hunt/ToF Photo Hunt-Prefix.pch";
 				INFOPLIST_FILE = "ToF Photo Hunt/ToF Photo Hunt-Info.plist";
@@ -2942,6 +2952,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bradgaymans.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

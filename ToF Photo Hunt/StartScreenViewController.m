@@ -45,6 +45,12 @@
                                                  name:NSUserDefaultsDidChangeNotification object:nil];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self updateView];
+}
+
 -(UIStatusBarStyle)preferredStatusBarStyle{
     return UIStatusBarStyleLightContent;
 }
@@ -55,13 +61,8 @@
     [self.startScreenView setNeedsDisplay];
 }
 
-- (void)didReceiveMemoryWarning
+- (IBAction)tapInView:(UITapGestureRecognizer *)sender
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)tapInView:(UITapGestureRecognizer *)sender {
     CGPoint tapLocation = [sender locationInView:self.startScreenView];
     if ([self.startScreenView tapNewGame:tapLocation]) {
         [self performSegueWithIdentifier:@"ShowGame" sender:self];

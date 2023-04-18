@@ -86,9 +86,15 @@
 -(void) circleDifference:(CGRect)rect withColor:(UIColor *)color
 {
     [color setStroke];
-    UIBezierPath *oval = [UIBezierPath bezierPathWithOvalInRect:rect];
+    UIBezierPath *oval = [UIBezierPath bezierPathWithOvalInRect:[self applyScale:rect]];
     oval.lineWidth = STROKE_FOUND;
     [oval stroke];
+}
+
+-(CGRect) applyScale:(CGRect)rect {
+    CGFloat xScale = self.bounds.size.width / 500.0;
+    CGFloat yScale = self.bounds.size.height / 600.0;
+    return CGRectMake(rect.origin.x * xScale, rect.origin.y * yScale, rect.size.width * xScale, rect.size.height * yScale);
 }
 
 #pragma mark -Initialization
@@ -108,42 +114,37 @@
 -(void) setDifference1:(Difference *)difference1
 {
     _difference1 = difference1;
-    [self setNeedsDisplayInRect:difference1.differenceRect];
+    [self setNeedsDisplayInRect:[self applyScale: difference1.differenceRect]];
 }
 
 -(void) setDifference2:(Difference *)difference2
 {
     _difference2 = difference2;
-    [self setNeedsDisplayInRect:difference2.differenceRect];
+    [self setNeedsDisplayInRect:[self applyScale: difference2.differenceRect]];
 }
 
 -(void) setDifference3:(Difference *)difference3
 {
     _difference3 = difference3;
-    [self setNeedsDisplayInRect:difference3.differenceRect];
+    [self setNeedsDisplayInRect:[self applyScale: difference3.differenceRect]];
 }
 
 -(void) setDifference4:(Difference *)difference4
 {
     _difference4 = difference4;
-    [self setNeedsDisplayInRect:difference4.differenceRect];
+    [self setNeedsDisplayInRect:[self applyScale: difference4.differenceRect]];
 }
 
 -(void) setDifference5:(Difference *)difference5
 {
     _difference5 = difference5;
-    [self setNeedsDisplayInRect:difference5.differenceRect];
+    [self setNeedsDisplayInRect:[self applyScale: difference5.differenceRect]];
 }
 
 -(void)setup
 {
     self.layer.masksToBounds = NO;
     self.layer.cornerRadius = ROUND_RECT_CORNER_RADIUS; // if you like rounded corners
-    self.layer.shadowOffset = CGSizeMake(2.0, 5.0);
-    self.layer.shadowRadius = 5;
-    self.layer.shadowOpacity = 0.5;
-    self.layer.shadowColor = [UIColor blackColor].CGColor;
-    self.layer.shadowPath = [UIBezierPath bezierPathWithRect:self.bounds].CGPath;
 }
 
 -(void)awakeFromNib

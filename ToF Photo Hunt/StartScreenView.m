@@ -77,7 +77,9 @@
         [newGameRoundedRect stroke];
         UIImage *signature = [UIImage imageNamed:@"signature.png"];
         CGRect signatureRect = CGRectMake(self.bounds.size.width/2.0-signature.size.width/2.0+10.0, self.bounds.size.height*5.0/6.0-signature.size.height/2.0-25.0, signature.size.width, signature.size.height);
-        [signature drawInRect:signatureRect blendMode:BLEND_MODE alpha:1.0];
+        if (self.traitCollection.horizontalSizeClass != UIUserInterfaceSizeClassCompact) {
+            [signature drawInRect:signatureRect blendMode:BLEND_MODE alpha:1.0];
+        }
         //CGPoint mid = CGPointMake(self.bounds.size.width/2.0, self.bounds.size.height*5.0/6.0+signature.size.height/2.0-20.0);
         //UIFont *newGameFont = [UIFont fontWithName:@"Arial-BoldMT" size:self.bounds.size.height * SCOREBOARD_FONT];
         //NSAttributedString *newGame = [[NSAttributedString alloc] initWithString:@"NEW GAME" attributes:@{ NSFontAttributeName : newGameFont }];
