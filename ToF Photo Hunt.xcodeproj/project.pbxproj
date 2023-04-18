@@ -599,6 +599,7 @@
 		05B273A91719FBE4001130CA /* newScoreImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B273A71719FBE4001130CA /* newScoreImage@2x.png */; };
 		05B273AC1719FC7E001130CA /* NewScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B273AB1719FC7E001130CA /* NewScoreView.m */; };
 		05C818E629EF1D1500BC7E22 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C818E529EF1D1500BC7E22 /* Launch Screen.storyboard */; };
+		05C818E829EF3A0300BC7E22 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05C818E729EF3A0300BC7E22 /* Settings.bundle */; };
 		05C9CD4716E94FEF005D7F7D /* Bimage68.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C9CD4316E94FEF005D7F7D /* Bimage68.png */; };
 		05C9CD4816E94FEF005D7F7D /* Bimage68@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C9CD4416E94FEF005D7F7D /* Bimage68@2x.png */; };
 		05C9CD4916E94FEF005D7F7D /* Aimage68.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C9CD4516E94FEF005D7F7D /* Aimage68.png */; };
@@ -1256,6 +1257,7 @@
 		05B273AA1719FC7E001130CA /* NewScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewScoreView.h; sourceTree = "<group>"; };
 		05B273AB1719FC7E001130CA /* NewScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewScoreView.m; sourceTree = "<group>"; };
 		05C818E529EF1D1500BC7E22 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		05C818E729EF3A0300BC7E22 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		05C9CD4316E94FEF005D7F7D /* Bimage68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bimage68.png; sourceTree = "<group>"; };
 		05C9CD4416E94FEF005D7F7D /* Bimage68@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bimage68@2x.png"; sourceTree = "<group>"; };
 		05C9CD4516E94FEF005D7F7D /* Aimage68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aimage68.png; sourceTree = "<group>"; };
@@ -1960,6 +1962,7 @@
 				05ADEA4716E2AC84008B9B67 /* StartScreenView.m */,
 				05AAE23816E1D10700397EC5 /* ImagePlateView.h */,
 				05AAE23916E1D10700397EC5 /* ImagePlateView.m */,
+				05C818E729EF3A0300BC7E22 /* Settings.bundle */,
 				05B16D1216E0410B007326F5 /* Supporting Files */,
 			);
 			path = "ToF Photo Hunt";
@@ -2114,6 +2117,7 @@
 				05ADEA3616E28B24008B9B67 /* playButton@2x.png in Resources */,
 				05ADEA4F16E2B592008B9B67 /* photoHuntBadge.png in Resources */,
 				05ADEA5016E2B592008B9B67 /* photoHuntBadge@2x.png in Resources */,
+				05C818E829EF3A0300BC7E22 /* Settings.bundle in Resources */,
 				05ADEA5316E2B83C008B9B67 /* signature.png in Resources */,
 				05ADEA5416E2B83C008B9B67 /* signature@2x.png in Resources */,
 				0539270C16E2D81D002C4BCF /* Aimage2.png in Resources */,

@@ -231,7 +231,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="580" height="640"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EPR-xL-7Sh">
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPR-xL-7Sh">
                                 <rect key="frame" x="0.0" y="0.0" width="580" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="3vW-Lj-oJA"/>
@@ -240,18 +240,23 @@
                                 <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </navigationBar>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q0C-Pc-0qH" customClass="NewScoreView">
-                                <rect key="frame" x="20" y="50" width="540" height="570"/>
+                                <rect key="frame" x="34" y="50" width="512" height="540"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Q0C-Pc-0qH" secondAttribute="height" multiplier="18:19" id="EgU-te-Z4s"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="scrollViewTexturedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="EPR-xL-7Sh" firstAttribute="top" secondItem="mju-HH-2L7" secondAttribute="bottom" id="DTF-pu-D7r"/>
-                            <constraint firstItem="U44-St-gdz" firstAttribute="top" secondItem="Q0C-Pc-0qH" secondAttribute="bottom" constant="20" id="FQ2-rG-ZMc"/>
-                            <constraint firstItem="Q0C-Pc-0qH" firstAttribute="trailing" secondItem="cvj-5K-u5U" secondAttribute="trailingMargin" id="JJZ-pf-Xki"/>
+                            <constraint firstItem="U44-St-gdz" firstAttribute="top" secondItem="Q0C-Pc-0qH" secondAttribute="bottom" priority="998" constant="20" id="FQ2-rG-ZMc"/>
+                            <constraint firstItem="Q0C-Pc-0qH" firstAttribute="trailing" secondItem="cvj-5K-u5U" secondAttribute="trailingMargin" priority="998" id="JJZ-pf-Xki"/>
+                            <constraint firstItem="Q0C-Pc-0qH" firstAttribute="centerY" secondItem="cvj-5K-u5U" secondAttribute="centerY" id="Sly-PE-FOP"/>
                             <constraint firstItem="EPR-xL-7Sh" firstAttribute="leading" secondItem="cvj-5K-u5U" secondAttribute="leading" id="iLr-WE-0Wu"/>
+                            <constraint firstItem="Q0C-Pc-0qH" firstAttribute="centerX" secondItem="cvj-5K-u5U" secondAttribute="centerX" id="pte-Eq-qNX"/>
                             <constraint firstItem="Q0C-Pc-0qH" firstAttribute="top" secondItem="EPR-xL-7Sh" secondAttribute="bottom" constant="6" id="tAb-Ej-cBe"/>
-                            <constraint firstItem="Q0C-Pc-0qH" firstAttribute="leading" secondItem="cvj-5K-u5U" secondAttribute="leadingMargin" id="v19-NS-Hf0"/>
+                            <constraint firstItem="Q0C-Pc-0qH" firstAttribute="leading" secondItem="cvj-5K-u5U" secondAttribute="leadingMargin" priority="998" id="v19-NS-Hf0"/>
                             <constraint firstAttribute="trailing" secondItem="EPR-xL-7Sh" secondAttribute="trailing" id="y80-zb-vXZ"/>
                         </constraints>
                     </view>
